@@ -1,0 +1,138 @@
+body{
+	border: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    margin: 0;
+    outline: 0;
+	padding: 0;
+}
+header{
+	display: block;
+    padding: 0.05rem 0;
+    position: relative;
+	z-index: 99;
+	color: #fff;
+}
+.carousel-item {
+	height: 90vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* layout */
+.carousel-item p{
+	display: inline;
+}
+.container_hero{
+    margin: 0 auto;
+}
+.container_full{
+	padding: 20px 0;
+}
+.container_content{
+	padding: 0 245px;
+}
+/* contact */
+.header_content{
+	width: 100%;
+}
+.header_content_logo{
+	width: 25%;
+	float: left;
+	padding-left: 26px;
+}
+.header_content_info{
+	width: 75%;
+	float: left;
+}
+.contact_info{
+	width: 100%;
+}
+.address{
+	width: 58%;
+	float: left;
+	padding-left: 134px;
+}
+.phone{
+	width: 25%;
+	float: left;
+}
+.language{
+	width: 15%;
+	float: left;
+}
+.dropdown select{
+	background: none;
+	border: none;
+	color: #fff;
+}
+.language select:hover{
+	cursor: pointer;
+}
+.language_option{
+	color: black;
+	background-color: #fff;
+	padding: 0 10px 10px 0;
+}
+.menu_header{
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 35px;
+	padding-left: 76px; 
+}
+.menu_header ul{
+	list-style-type: none;
+	width: 100%;
+	float: right;
+}
+.menu_header ul li{
+	float: left;
+	padding: 0 17px;
+	color: #fff;
+}
+.menu_li_top:hover{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+.active_header{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+.package_info{
+	
+
+}
+.package_info
+.package_title{
+	font-size: 0.8rem;
+    color: #9b9b9b;
+    font-weight: 700;
+    display: block;
+    margin-bottom: .625rem;
+}
+.package_info ul{
+	list-style-type: none;
+	padding: 0;
+	font-size: 12px;
+}
+.package_info ul li{
+	float: left;
+	margin: 0 25px;
+	font-family: 'UTMNeutra';
+	margin: 0;
+	font-weight: bold;
+}
+.other_li{
+    color: #9b9b9b;
+	margin-left: 45px !important;
+}
+.other_li:hover{
+	color: #145c90;	
+}
+.image_hover:hover{
+	box-shadow: 0px 10px 8px grey;
+}

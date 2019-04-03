@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang chủ</title>
+    <link rel="shortcut icon" type="image/png" href="Images/logo/logo.ico"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container_hero">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- <div class="carousel-item d-block w-100 active" style="background-image: url('images/sliders/working_bluebg.jpg')">
+                    </div> -->
+                    <div class="carousel-item d-block w-100 active" style="background-image: url('images/sliders/girl_reading.jpg')">
+                        <div class="container_full">
+                            <div class="container_content">
+                                <div class="header_content">
+                                    <div class="row">
+                                        <div class="header_content_logo">
+                                            <img src="images/logo/logo.png" alt="iot_space">
+                                        </div>
+                                        <div class="header_content_info">
+                                           <div class="contact_info">
+                                                
+                                                <div class="address">
+                                                    <span class="fa fa-map-marker" aria-hidden="true"></span>
+                                                    <span>Địa chỉ: 63 Phan Đăng Lưu - Đà Nẵng - Việt Nam</span>
+                                                </div>
+                                                <div class="phone">
+                                                    <span class="fa fa-phone"></span>
+                                                    <span>Điện thoại: (0236) 730 2568 </span> 
+                                                </div>
+                                                <div class="language">
+                                                    <span><img src="images/pictures/ic-vi.svg" alt="" width="30" height="30"></span>
+                                                    <span class="dropdown">
+                                                        <select>
+                                                            <option class="language_option">
+                                                                Tiếng Việt
+                                                            </option>
+                                                            <option class="language_option">
+                                                                Tiếng Anh
+                                                            </option>
+                                                        </select>
+                                                    </span>
+                                                </div>
+                                                <div class="menu_header">
+                                                    <ul>
+                                                       <a href="#"><li><span class="active_header">Trang chủ</span></li></a>
+                                                       <a href="#"><li><span class="menu_li_top">Giới thiệu</span></li></a>
+                                                       <a href="#"><li><span class="menu_li_top">Sự kiện</span></li></a> 
+                                                       <a href="#"><li><span class="menu_li_top">Dịch vụ</span></li></a> 
+                                                       <a href="#"><li><span class="menu_li_top">Dự án</span></li></a>
+                                                       <a href="#"><li><span class="menu_li_top">Thư viện ảnh</span></li></a>
+                                                       <a href="#"><li><span class="menu_li_top">Liên hệ</span></li></a> 
+                                                    </ul>
+                                                </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>     
+                        </div>
+                    </div>
+                    <!-- <div class="carousel-item d-block w-100" style="background-image: url('images/sliders/space_blue.jpg')">
+                    </div>
+                    <div class="carousel-item d-block w-100" style="background-image: url('images/sliders/working_more.jpg')">
+                    </div> -->
+                </div>
+                <!-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container_full">
+            <div class="container_content">
+                <div class="package_info">
+                    <span class="package_title">Gói dịch vụ</span>
+                    <ul>
+                        <button onclick="openTab('kgc')"><li id="common_space" style="color:#145c90;"><h1>KHÔNG GIAN CHUNG</h1></li></button>
+                        <button onclick="openTab('kgr')"><li id="single_space" class="other_li"><h1>VĂN PHÒNG RIÊNG</h1></li></button>
+                    </ul>
+                </div>
+                <div id="kgc" class="kgc tabs" style="clear:both; padding-top: 30px; display: none;">
+                    <div class="col-md-12" style="padding:0; margin:0;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/clock.svg" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/working.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/working1.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/working_dis.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="kgr" class="kgr tabs" style="clear:both; padding-top: 30px; display: none;">
+                    <div class="col-md-12" style="padding:0; margin:0;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/working_ques.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/working_yell.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/search_map.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="border" style="width:100%;padding:25px;">
+                                    <div><img src="images/icons/working_logic.png" alt="iot_space" style="width:50px;height:50px;"></div><br>
+                                    <div><strong>Một buổi</strong></div><br>
+                                    <div>Chỉ với</div><br>
+                                    <h6>35,000 VNĐ/buổi</h6><br>
+                                    <div><a href="#">Xem chi tiết ></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="notify" style="background-color:#fbfbfb; margin-top: 50px; padding-bottom: 30px;">
+                <div style="padding: 20px 0; text-align: center;"><strong><b>THÔNG BÁO</b></strong></div>
+                <div class="container_content">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4" style="padding:0; margin:0">
+                                <div class="border" style="width:95%; padding:8px 1px;">
+                                    <div class="col-md-12" style="padding: 15px 20px;">
+                                        <div class="row">
+                                            <div class="col-md-3"><img src="images/pictures/thantai.jpg" alt="iot_space" width="80px" height="80px"></div>
+                                            <div class="col-md-9">
+                                                <strong>
+                                                    Người lao động không có chế độ nghỉ ngày thứ Bảy thì được nghỉ liền 02 ngày
+                                                </strong>
+                                                <div class="date_doing">22/01/2019</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="padding:0; margin:0">
+                                <div class="border" style="width:95%; padding:8px 1px;">
+                                    <div class="col-md-12" style="padding: 15px 20px;">
+                                        <div class="row">
+                                            <div class="col-md-3"><img src="images/pictures/notification.jpg" alt="iot_space" width="80px" height="80px"></div>
+                                            <div class="col-md-9">
+                                                <strong>
+                                                    Người lao động không có chế độ nghỉ ngày thứ Bảy thì được nghỉ liền 02 ngày
+                                                </strong>
+                                                <div class="date_doing">22/01/2019</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="padding:0; margin:0">
+                                <div class="border" style="width:95%; padding:8px 1px;">
+                                    <div class="col-md-12" style="padding: 15px 20px;">
+                                        <div class="row">
+                                            <div class="col-md-3"><img src="images/pictures/notification_blue.jpg" alt="iot_space" width="80px" height="80px"></div>
+                                            <div class="col-md-9">
+                                                <strong>
+                                                    Người lao động không có chế độ nghỉ ngày thứ Bảy thì được nghỉ liền 02 ngày
+                                                </strong>
+                                                <div class="date_doing">22/01/2019</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="introduce_iot" style="margin-top: 50px; padding-bottom: 30px;">
+                <div class="container_content">
+                    <div class="col-md-12" style="padding:70px 0;">
+                        <div class="row">
+                            <div class="col-md-6" style="margin:50px 0; padding-right: 40px;">
+                                <h1>Giới thiệu IOT SPACE</h1>
+                                <div>
+                                    <p>
+                                        Lần đầu tiên, một coworking space tại Đà Nẵng dành riêng cho các Nhóm khởi nghiệp trẻ trên nền tảng IoT (Internet of Things) đã chính thức đi vào hoạt động.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p>
+                                        “Quy tụ – Kết nối – Đồng hành sáng tạo và Sẻ chia” là những gì mà các thành viên sáng lập của IoT Space hướng tới, tất cả hòa nhịp cùng dòng chảy của cuộc cách mạng công nghiệp 4.0.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <img src="images/pictures/built.png" alt="iot_space">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partner_iot" style="background-color:#fbfbfb; margin-top: 50px; padding-bottom: 30px;">
+                <div style="padding: 20px 0; text-align: center;"><strong><b>ĐỐI TÁC CỦA IOT SPACE</b></strong></div>
+                <div class="container_content">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-2 image_hover">
+                                <img src="images/partner-logos/holiday.png" alt="iot_space">
+                            </div>
+                            <div class="col-md-2 image_hover">
+                                <img src="images/partner-logos/lazada.png" alt="iot_space">
+                            </div>
+                            <div class="col-md-2 image_hover">
+                                <img src="images/partner-logos/taget.png" alt="iot_space">
+                            </div>
+                            <div class="col-md-2 image_hover">
+                                <img src="images/partner-logos/ebay.png" alt="iot_space">
+                            </div>
+                            <div class="col-md-2 image_hover">
+                                <img src="images/partner-logos/page_scale.png" alt="iot_space">
+                            </div>
+                            <div class="col-md-2 image_hover">
+                                <img src="images/partner-logos/sp_rental.png" alt="iot_space">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </section>
+    <footer style="width:100%; height: 280px; background: #025b93; padding: 1.25rem 0 0;color: #fff;">
+        <div class="footer-top">
+            <div class="container_content">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div>
+                                <img src="images/logo/logo-footer.png" alt="iot_space">
+                            </div>
+                            <br>
+                            <div>
+                                <p>Địa chỉ: 63 Phan Đăng Lưu - Đà Nẵng - Việt Nam</p>
+                                <p>Điện thoại: (0236) 730 2568</p>
+                                <p>Di động: (084) 905 18 2013</p>
+                                <p>Thư điện tử : info@iotcoworkingspace.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div><strong><b>WEBSITE</b></strong></div>
+                            <div class="col-md-12" style="margin:10px 0;">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul style="list-style-type: none;">
+                                            <li>Trang chủ</li>
+                                            <li>Dịch vụ</li>
+                                            <li>Thư viện ảnh</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul style="list-style-type: none;">
+                                            <li>Giới thiệu</li>
+                                            <li>Tin tức-sự kiện</li>
+                                            <li>Liên hệ</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <strong><b>KẾT NỐI VỚI IOT-SPACE</b></strong>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i class="fa fa-skype" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-coppyright">
+            <div class="container_content">
+                
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="js/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</html>
